@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-var _apikey = "AIzaSyAcBJZ9cohSM9jUim-ZHKnMcjZ0ZmPqbfg";
+var _apikey = "***********************";
 
 Future<http.Response> voiceResponse(String text) async {
   String url ="https://texttospeech.googleapis.com/v1beta1/text:synthesize?key=$_apikey";
